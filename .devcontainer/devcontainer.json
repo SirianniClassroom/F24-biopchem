@@ -1,6 +1,6 @@
 {
   "name": "Python 3",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "ghcr.io/sirianniclassroom/bpchem:latest",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
@@ -8,8 +8,6 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "yes | pip uninstall sympy",
   "customizations": {
     "codespaces": {
       "openFiles": []
