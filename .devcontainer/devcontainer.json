@@ -17,7 +17,7 @@
         "ms-toolsai.jupyter",
         "ms-python.python"
       ]
-    }
+    },
     "features": {
         "ghcr.io/devcontainers/features/python:1": {},
         "ghcr.io/devcontainers/features/git:1": {
